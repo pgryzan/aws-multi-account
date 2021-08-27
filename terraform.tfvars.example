@@ -16,6 +16,7 @@ project             = {
 //  AWS Information
 aws                 = {
     account_id      = ""
+    role            = ""
     region          = "us-east-2"
     environment     = "dev"
 }
