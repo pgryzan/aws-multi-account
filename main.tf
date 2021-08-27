@@ -112,7 +112,7 @@ resource "aws_iam_role" "developers" {
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::<id>:root"
+        "AWS": "arn:aws:iam::${var.aws.account_id}:root"
       },
       "Action": "sts:AssumeRole",
       "Condition": {}
